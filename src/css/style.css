@@ -1,0 +1,107 @@
+html {
+    background-image: url("../images/bg-repeat.jpg");
+    height: 100vh;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+}
+
+.textos {
+    margin-top: 170px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffff;
+    width: 340px;
+    height: 378px;
+}
+
+.textos h1{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.textos p{
+    width: 300px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.formulario {
+    width: 340px;
+    height: 378px;
+    background-color: #ffff;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formulario input {
+    border-radius: 5px;
+    width: 298px;
+    height: 29px;
+    border-width: 1px;
+}
+
+.formulario textarea {
+    border-radius: 5px;
+    width: 298px;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.formulario .preencher {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 21px auto auto 18px;
+    
+}
+
+.formulario .btn {
+    margin-left: 18px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;   
+    font-weight: 400;
+    position: relative;
+    top: -7px;
+}
+
+.formulario .btn button {
+    height: 41px;
+    width: 298px;
+    position: relative;
+    top: -7px;
+    color: #ffff;
+    font-weight: 700;
+    background-color: #3CCC87;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+
+.campo-obrigatorio {
+    margin: -8px auto auto 3px;
+    color: #F52E2E;
+    font-size: 8px;
+    display: none;
+}
+/* CASO SEJA PREENCHIDO */
+.preenchido {
+    border-color: #00C22B;
+
+}
+/* CASO NÃO SEJA PREENCHIDO */
+
+.nao-preenchido {
+    border-color: #F52E2E;
+}
+.span {
+    display: block;
+}
+
